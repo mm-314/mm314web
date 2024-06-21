@@ -19,6 +19,6 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           ARGS: "-rltgoDzvO --delete"
           SOURCE: "dist/"
-          REMOTE_HOST: "yourserver"
-          REMOTE_USER: "username"
+          REMOTE_HOST: "10.211.55.12"
+          REMOTE_USER: "parallels"
           TARGET: "/var/www/html/"
