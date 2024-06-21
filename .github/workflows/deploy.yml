@@ -20,5 +20,3 @@ jobs:
 
       - name: Copy files via SCP
         run: scp -r * parallels@10.211.55.12:/var/www/html/
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
